@@ -1,4 +1,4 @@
-# LaChaviza---Proyecto-Final
+# LaChaviza-Proyecto-Final
 
 ## Software Requirements 
 ## Plan de Calidad
