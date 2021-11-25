@@ -35,7 +35,32 @@ Esta funcionalidad consiste en permitir a lxs alumnxs consultar los proyectos qu
 
 #### 4.1.3 Requerimientos Funcionales
 
-    - REQ-1: La sección para consultar proyectos tiene que ser fácil de encontrar y encontrarse dentro del menú principal.
-    - REQ-2: La consulta de los proyectos tiene que ser intuitiva para el usuarix teniendo en cuenta los diferentes temas que abarcan los proyectos.
+    - REQ-1: La sección para consultar proyectos tiene que ser la 
+             primera pantalla en aparecer al iniciar sesión.
+    - REQ-2: La consulta de los proyectos tiene que ser intuitiva para el usuarix 
+             teniendo en cuenta los diferentes temas que abarcan los proyectos.
     - REQ-3: Regresar al menú principal tiene que ser un proceso sencillo de realizar.
     - REQ-4: Se tiene que poder agregar marcadores a los proyectos que el alumnx desee.
+
+### 4.2 Votación por Proyectos
+
+#### 4.2.1 Descripción y Prioridad
+
+Esta funcionalidad tiene como objetivo permitir a lxs alumnxs votar por los proyectos que consideren interesantes y bien hechos. Esta herramienta permite que los proyectos que destacan entre lxs alumnxs puedan ser reconocidos por su esfuerzo. Los resultados de la votación pueden ser vistos por el usuarix. Esta funcionalidad es de prioridad media ya que es importante pero no esencial para la consulta de los proyectos.
+
+#### 4.2.2 Secuencia de Respuestas
+
+    1. Estudiante ingresa desde la página de inicio del sistema.
+    2. Estudiante se dirige a un proyecto de su interés y lo abre para investigar.
+    3. Estudiante selecciona el botón de votar situado abajo de el abstracto del proyecto.
+        3.1. Estudiante selecciona el botón de votaciones en la parte superior de la ventana.
+        3.2  Estudiante regresa al abstracto del proyecto.
+    4. Estudiante cierra ventana confirmando el registro de su voto.
+
+#### 4.2.3 Requerimientos Funcionales
+
+    - REQ-1: El botón para poder votar tiene que ser fácil de encontrar y 
+             cerca del final del texto descriptivo del proyecto.
+    - REQ-2: Al votar debe invocarse una ventana que confirme que la votación fue exitosa.
+    - REQ-3: Se puede votar por todos los proyectos.
+    - REQ-4: El botón para regresar a la ventana del proyecto.
