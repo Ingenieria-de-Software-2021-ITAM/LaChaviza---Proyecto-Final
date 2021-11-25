@@ -25,5 +25,5 @@ Se escalarían cosas depende del proyecto
 El despliegue es bueno y al no ser algo tan prioritario para lxs alumnxs, puede que si no se despliega rápido, se pierda interés.
 Al tener diferentes microservicios podemos dividir el desarrollo de varios de ellos y así es más fácil para desarrollar.
 - Por eventos
-Complementa muy
+Esta metodología es muy ágil y su despliegue es muy rápido, ventajas que necesitamos para mantener el interés de los alumnos en la aplicación, principalmente en la fase inicial del proyecto. Además, es muy escalable y esto es necesario ya que la aplicación podría evolucionar en caso de ser exitosa entre los alumnos. La desventaja es que puede que no sea tan fácil de desarrollar o de testear.
 
