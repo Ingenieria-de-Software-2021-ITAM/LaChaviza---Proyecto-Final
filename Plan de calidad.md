@@ -5,12 +5,24 @@ Some type of unique company generated number to identify this test plan, its lev
 
 ## 2 REFERENCES
 
-List all documents that support this test plan.  Refer to the actual version/release number of the document as stored in the configuration management system. Do not duplicate the text from other documents as this will reduce the viability of this document and increase the maintenance effort. Documents that can be referenced include: § Project Plan § Requirements specifications § High Level design document § Detail design document § Development and Test process standards § Methodology guidelines and examples § Corporate standards and guidelines 
+* [Requerimientos](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Requerimientos.md)
+* [Arquitectura y justificacion](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Arquitectura%20y%20Justificaci%C3%B3n.md)
+* [Metodología y justificación](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Metodolog%C3%ADaYJustificacion.md)
+* [Propuesta económica](https://app.moqups.com/MGHKpHQoFzL0tnLWQSHoPrmzQogyRgHn/view/page/a8310d123)
+* [Código](https://docs.google.com/spreadsheets/d/1ln8IqfAp9rtSpbkd0Omaz1Uzz7hbInp1jhrrJ3ZuMsk/edit?usp=sharing)
 
 ## 3 INTRODUCTION
 State the purpose of the Plan, possibly identifying the level of the plan (master etc.). This is essentially the executive summary part of the plan. You may want to include any references to other plans, documents or items that contain information relevant to this project/process.  If preferable, you can create a references section to contain all reference documents. Identify the Scope of the plan in relation to the Software Project plan that it relates to. Other items may include, resource and budget constraints, scope of the testing effort, how testing relates to other evaluation activities (Analysis & Reviews), and possible the process to be used for change control and communication and coordination of key activities. As this is the “Executive Summary” keep information brief and to the point. 
 
 ## 4 TEST ITEMS (FUNCTIONS) 
+Las funcionaliades que se probarán serán:
+* Ingresar a la página
+* Registrarse 
+* Escribir un cometario en un proyecto en específico
+* Publicar un comentario en un proyecto en específico
+* Votar por un proyecto en específico
+* Navegar por los comentarios existentes.
+
 These are things you intend to test within the scope of this test plan.  Essentially, something you will test, a list of what is to be tested. This can be developed from the software application inventories as well as other sources of documentation and information. 
 IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme Evolutif Limited Page 3 This can be controlled and defined by your local Configuration Management (CM) process if you have one.  This information includes version numbers, configuration requirements where needed, (especially if multiple versions of the product are supported).  It may also include key delivery schedule issues for critical elements. Remember, what you are testing is what you intend to deliver to the Client. This section can be oriented to the level of the test plan.  For higher levels it may be by application or functional area, for lower levels it may be by program, unit, module or build.
 
@@ -18,11 +30,34 @@ IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme
 Identify what software is to be tested and what the critical areas are, such as: A. Delivery of a third party product. B. New version of interfacing software C. Ability to use and understand a new package/tool, etc. D. Extremely complex functions  E. Modifications to components with a past history of failure F. Poorly documented modules or change requests There are some inherent software risks such as complexity; these need to be identified.   A. Safety B. Multiple interfaces C. Impacts on Client D. Government regulations and rules Another key area of risk is a misunderstanding of the original requirements. This can occur at the management, user and developer levels. Be aware of vague or unclear requirements and requirements that cannot be tested. The past history of defects (bugs) discovered during Unit testing will help identify potential areas within the software that are risky.  If the unit testing discovered a large number of defects or a tendency towards defects in a particular area of the software, this is an indication of potential future problems.  It is the nature of defects to cluster and clump together.  If it was defect ridden earlier, it will most likely continue to be defect prone. One good approach to define where the risks are is to have several brainstorming sessions. § Start with ideas, such as, what worries me about this project/application.
 
 ## 6 FEATURES TO BE TESTED 
-This is a listing of what is to be tested from the USERS viewpoint of what the system does.  This is not a technical description of the software, but a USERS view of the functions. Set the level of risk for each feature.  Use a simple rating scale such as (H, M, L): High, Medium and Low. These types of levels are understandable to a User.  You should be prepared to discuss why a particular level was chosen. It should be noted that Section 4 and Section 6 are very similar. The only true difference is the point of view.  Section 4 is a technical type description including version numbers and other technical information and Section 6 is from the User’s viewpoint.  Users do not understand 
-IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme Evolutif Limited Page 4 technical software terminology; they understand functions and processes as they relate to their jobs.
+Las funcionalidades que se probarán desde el punto de vista del usuario son las siguientes:
+* Página de inicio
+    *   Ingreso de usuario
+    *   Ingreso de contraseña
+    *   (Acceso a la base de datos)
+* Registro
+    *   Ingreso de usuario
+    *   Ingreso de correo electrónico 
+    *   Ingreso de contraseña
+    *   Ingreso de confirmación de contraseña
+    *   (Actualización de la base de datos) 
+* Votar
+    * (Actualización de la base de datos) 
+
+Es importante probarlas desde este ángulo porque el usuario es el que se encargará de manejarlas, por lo que es importante que se hagan lo más sencillas e intuitivas posibles.
+La votación es el objetivo principal de la página, por lo que no puede haber errores a la hora de que algún usuario vote por un proyecto.
+De igual manera, el ingresar a la aplicación es importante para que todo el quien lo desee pueda votar. 
 
 ## 7 FEATURES NOT TO BE TESTED 
-This is a listing of what is NOT to be tested from both the Users viewpoint of what the system does and a configuration management/version control view.  This is not a technical description of the software, but a USERS view of the functions. Identify WHY the feature is not to be tested, there can be any number of reasons. § Not to be included in this release of the Software. § Low risk, has been used before and is considered stable. § Will be released but not tested or documented as a functional part of the release of this version of the software. Sections 6 and 7 are directly related to Sections 5 and 17.  What will and will not be tested are directly affected by the levels of acceptable risk within the project, and what does not get tested affects the level of risk of the project.  
+Las funcionalidades que se probarán desde el punto de vista del usuario son las siguientes:
+* Visualización de comentarios
+    *   (Acceso a la base de datos)
+* Comentar
+    *   Ingreso de comentario
+    *   (Actualización de la base de datos) 
+
+
+Estas funcionalidades no se probaran desde éste ángulo debido a que son secundarias. Si es importante que los usuarios puedan votar, pero tiene más prioridad que puedan votar. Es por esto que los recursos se enfocarán en la prueba de voto antes que en comentar y visualizar comentarios.   
 
 ## 8 APPROACH (STRATEGY)
 This is your overall test strategy for this test plan; it should be appropriate to the level of the plan (master, acceptance, etc.) and should be in agreement with all higher and lower levels of plans.  Overall rules and processes should be identified. § Are any special tools to be used and what are they? § Will the tool require special training? § What metrics will be collected? § Which level is each metric to be collected at? § How is Configuration Management to be handled? § How many different configurations will be tested? § Hardware § Software § Combinations of HW, SW and other vendor packages § What levels of regression testing will be done and how much at each test level? § Will regression testing be based on severity of defects detected? § How will elements in the requirements and design that do not make sense or are untestable be processed? If this is a master test plan the overall project testing approach and coverage requirements must also be identified. Specify if there are special requirements for the testing. § Only the full component will be tested. § A specified segment of grouping of features/components must be tested together. Other information that may be useful in setting the approach are: § MTBF, Mean Time Between Failures - if this is a valid measurement for the test involved and if the data is available. § SRE, Software Reliability Engineering - if this methodology is in use and if the information is available. 
