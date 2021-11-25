@@ -20,6 +20,16 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 
 [Documento IEEE](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Plan%20de%20calidad.md)
 
+## 2. Descripción general
+
+### 2.1 Perspectiva del producto
+### 2.2 Funcionalidad del producto
+### 2.3 Clases de Usuario y características
+### 2.4 Ambiente de operaciones
+### 2.5 Limitaciones de diseño e implementación
+### 2.6 Documentación para usuarix
+### 2.7 Supuestos 
+
 ## 3. Requerimientos de Interfaz Externos
 
 ### 3.1 Interfaces de Usuarix
