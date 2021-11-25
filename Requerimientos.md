@@ -83,3 +83,29 @@ Esta funcionalidad se basa en permitir a lxs alumnxs escribir comentarios acerca
     - REQ-2: Un espacio de texto para que el alumnx ponga su comentario.
     - REQ-3: Se tiene que mostrar los comentarios de otrxs alumnxs.
     - REQ-4: El botón que permita regresar a la ventana del proyecto.
+    
+## 5. Requerimientos No Funcionales 
+
+### 5.1 Requerimientos de Rendimiento
+
+El sistema debe ser capaz de aguantar a 5,000 usuarios al mismo tiempo. Esto será puesto a prueba por nuestro equipo de DevOps. Con una herramienta adicional podrán realizar las implementaciones necesarias para que varixs estudiantes puedan estar realizando su votación o publicando comentarios.
+
+Toda funcionalidad dentro del sistema debe contestar al usuarix en menos de tres segundos. El software también tiene que actualizar la base de datos de las votaciones y comentarios en menos de tres segundos.
+
+### 5.2 Requerimientos de Buen Uso 
+
+- El tiempo de aprendizaje del sistema por parte de cada usuarix debe ser de una hora.
+- La tasa de errores cometidos por el usuarix debe ser del 1% en todas las transacciones ejecutadas dentro del sistema.
+- El sistema debe poseer interfaces gráficas bien formadas e intuitivas.
+
+### 5.3 Requerimientos de Seguridad
+
+- Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos.
+- Todas las comunicaciones externas entre servidores de datos, aplicación y cliente del sistema deben estar encriptadas utilizando el algoritmo RSA.
+- Si se identifican ataques de seguridad o brecha del sistema, el mismo no continuará operando hasta ser desbloqueado por un administrador de seguridad.
+
+### 5.4 Atributos de Calidad de Software
+
+- El sistema debe tener una disponibilidad del 99,99% de las veces en que un usuario intente accederlo.
+- El promedio de duración de fallas no podrá ser mayor a 15 minutos.
+- La probabilidad de falla del Sistema no podrá ser mayor a 0,05.
