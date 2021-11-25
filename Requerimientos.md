@@ -64,3 +64,22 @@ Esta funcionalidad tiene como objetivo permitir a lxs alumnxs votar por los proy
     - REQ-2: Al votar debe invocarse una ventana que confirme que la votación fue exitosa.
     - REQ-3: Se puede votar por todos los proyectos.
     - REQ-4: El botón para regresar a la ventana del proyecto.
+### 4.3 Escribir Comentarios sobre el Proyecto
+
+#### 4.3.1 Descripción y Prioridad
+
+Esta funcionalidad se basa en permitir a lxs alumnxs escribir comentarios acerca del proyecto que decidieron investigar. La implementación de esta funcionalidad crea un ambiente de discusión en el que se pueden expresar distintas opiniones sobre el tema que toca el proyecto en cuestión. Esta funcionalidad tiene prioridad baja ya que no es esencial para el uso de la herramienta. De igual manera, no es una funcionalidad importante para el planteamiento del proyecto pero la integración de esta funcionalidad es una gran adición a la herramienta.
+
+#### 4.3.2 Secuencia de Respuestas
+
+    1. Estudiante ingresa desde la página de inicio del sistema.
+    2. Estudiante se dirige a un proyecto de su interés y lo abre para investigar.
+    3. Estudiante selecciona el botón llamado comentarios.
+    4. Estudiante escribe el comentario que tiene acerca del proyecto para compartir con la comunidad.
+
+#### 4.3.2 Requerimientos Funcionales
+
+    - REQ-1: El botón para acceder a la sección de comentarios del software debe ser claro e intuitivo de encontrar.
+    - REQ-2: Un espacio de texto para que el alumnx ponga su comentario.
+    - REQ-3: Se tiene que mostrar los comentarios de otrxs alumnxs.
+    - REQ-4: El botón que permita regresar a la ventana del proyecto.
