@@ -20,6 +20,24 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 
 [Documento IEEE](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Plan%20de%20calidad.md)
 
+## 3. Requerimientos de Interfaz Externos
+
+### 3.1 Interfaces de Usuarix
+
+Este proyecto cuenta con una interfaz de usuarix solamente en el inicio del software y al realizar tu voto y/o comentario. El proyecto no cuenta con un diseño ni funcionamiento perzonalizado. Con esto nos referimos a que no cuenta con una interfaz de perfil.
+
+### 3.2 Interfaces de Hardware
+
+Este proyecto, por el momento, va a poder ser accedido en cualquier dispositivo que tenga conexión al internet. El diseño de la página esta creado para un monitor tipo computadora por lo cual en dispositivos más pequeños el diseño no será tan comodo como sucede con muchas otras páginas. Lo esencial de la herramienta puede ser realizado pero los botones pueden resultar más pequeños. 
+
+### 3.3 Interfaces de Software
+
+Este proyecta cuenta con cinco interfaces que cumplen con ciertas funcionalidades que componen el objetivo de la herramienta. La primera interfaz consiste en el ingreso de las credenciales del estudiante para hacer log-in, estos ya previamente dados de alta en el sistema. La interfaz principal es la segunda. Es una ventana que muestra en forma de matriz los proyectos que estan disponibles. Al ingresar a un proyecto se presenta la tercera interfaz que expone la información acerca del proyecto. Esta interfaz tiene la conexión a las dos últimas que se encargan de manejar los procesos de las votaciones así como de la publicación de comentarios.
+
+### 3.4 Interfaces de Comunicación
+
+La interfaz de comunicación para nuestro proyecto será unicamente la ventana para publicar comentarios. Debido a que el objetivo principal es la de informar el rasgo social de la aplicación se limita a esta funcionalidad. Lxs alumnxs pueden expresarse pero el mensaje es para todxs.
+
 ## 4. Funcionalidades
 
 ### 4.1 Consulta de las Proyectos
