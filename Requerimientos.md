@@ -19,3 +19,23 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 ### 1.5 Referencias
 
 [Documento IEEE](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/Plan%20de%20calidad.md)
+
+## 4. Funcionalidades
+
+### 4.1 Consulta de las Proyectos
+
+#### 4.1.1 Descripción y Prioridad
+
+Esta funcionalidad consiste en permitir a lxs alumnxs consultar los proyectos que sean de su interés. Lxs alumnxs pueden aprovechar esta funcionalidad para acceder a información proporcionada por otrxs alumnxs. Esta funcionalidad es de prioridad alta ya que sin ella el alumnado no puede acceder a los proyectos y aprovechar la herramienta.
+
+#### 4.1.2 Secuencia de Respuestas
+
+    1. Estudiante ingresa a la página de inicio del sistema
+    2. Estudiante navega por la matriz de diferentes proyectos a los que quiera acceder.
+
+#### 4.1.3 Requerimientos Funcionales
+
+    - REQ-1: La sección para consultar proyectos tiene que ser fácil de encontrar y encontrarse dentro del menú principal.
+    - REQ-2: La consulta de los proyectos tiene que ser intuitiva para el usuarix teniendo en cuenta los diferentes temas que abarcan los proyectos.
+    - REQ-3: Regresar al menú principal tiene que ser un proceso sencillo de realizar.
+    - REQ-4: Se tiene que poder agregar marcadores a los proyectos que el alumnx desee.
