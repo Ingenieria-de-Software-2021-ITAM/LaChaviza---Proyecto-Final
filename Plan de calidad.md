@@ -33,11 +33,12 @@ Este plan tiene el propósito de trazar las directrices para el desarrollo y pri
 
 Las funcionaliades que se probarán serán:
 * Ingresar a la página
-* Registrarse 
+* Registrarse
 * Escribir un cometario en un proyecto en específico
 * Publicar un comentario en un proyecto en específico
 * Votar por un proyecto en específico
 * Navegar por los comentarios existentes.
+* Realizar seguimiento de votos.
 
 ## 5 RIESGOS PARA EL SOFTWARE 
 
@@ -80,7 +81,9 @@ Las funcionalidades que no se probarán desde el punto de vista del usuario son 
 * Comentar
     *   Ingreso de comentario
     *   (Actualización de la base de datos) 
-
+* Seguimiento de proyecto/votaciones
+    *   Actualización de la interfaz
+    *   (Actualización de la base de datos) 
 
 Estas funcionalidades no se probaran desde éste ángulo debido a que son secundarias. Si es importante que los usuarios puedan votar, pero tiene más prioridad que puedan votar. Es por esto que los recursos se enfocarán en la prueba de voto antes que en comentar y visualizar comentarios.   
 
@@ -117,6 +120,8 @@ Se necesitará que todos los miembros tengan un conocimiento suficiente de progr
 ## 15 RESPONSIBILITIES (RESPONSABILIDADES)
 
 El encargado del proyecto es el Project Manager, luego el tendrá que asignarle las responsabilidades correspondientes a cada miembro del proyecto y verificar que sean cumplidas.
+Backed Engineer: A cargo del acceso de las bases de datos y cambios dentro de ella. 
+UI-UX: Encargadxs de la visualización de las interfaces.
 
 
 ## 16 SCHEDULE (AGENDA)
