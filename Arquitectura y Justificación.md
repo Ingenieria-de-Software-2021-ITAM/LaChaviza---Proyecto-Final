@@ -1,13 +1,13 @@
 ## ARQUITECTURA Y JUSTIFICACIÓN
 
-|      | Espacial  | Por Capas| Microservicios | Eventos
-| ----------- |-----------|-----------|----------|----------
-| Agilidad    |👍|👎|👍|👍|
-| Despliegue          |👍|👎|👍|👍|
-| Pruebas       |👎|👍|👎|👍|
-| Desempeño       |👍|👎|👍|👎|
-| Escalabilidad         |👍|👎|👍|👍|
-| Facil de desarrollar |👎|👍|👎|👍|
+| Arquitectura|  Microservicios | Eventos|
+| ----------- |-----------|-----------|
+| Agilidad   |👍|👍|
+| Despliegue  |👍|👍|
+| Pruebas      |👎|👍|
+| Desempeño      |👍|👎|
+| Escalabilidad      |👍|👍|
+| Facil de desarrollar |👎|👍|
 
 
 # Consideraciones:
