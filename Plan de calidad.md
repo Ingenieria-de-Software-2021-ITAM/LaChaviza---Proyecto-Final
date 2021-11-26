@@ -12,7 +12,8 @@ Some type of unique company generated number to identify this test plan, its lev
 * [Código](https://docs.google.com/spreadsheets/d/1ln8IqfAp9rtSpbkd0Omaz1Uzz7hbInp1jhrrJ3ZuMsk/edit?usp=sharing)
 
 ## 3 INTRODUCTION
-State the purpose of the Plan, possibly identifying the level of the plan (master etc.). This is essentially the executive summary part of the plan. You may want to include any references to other plans, documents or items that contain information relevant to this project/process.  If preferable, you can create a references section to contain all reference documents. Identify the Scope of the plan in relation to the Software Project plan that it relates to. Other items may include, resource and budget constraints, scope of the testing effort, how testing relates to other evaluation activities (Analysis & Reviews), and possible the process to be used for change control and communication and coordination of key activities. As this is the “Executive Summary” keep information brief and to the point. 
+
+Este plan tiene el propósito de trazar las directrices para el desarrollo y primera implementación de Proyecta ITAM. El enfoque específico es mostrar las metodologías, vistas, funcionalidades y requerimientos, costos y riesgos, necesario para realizar la aplicación
 
 ## 4 TEST ITEMS (FUNCTIONS) 
 Las funcionaliades que se probarán serán:
