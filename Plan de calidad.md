@@ -16,6 +16,7 @@ Some type of unique company generated number to identify this test plan, its lev
 Este plan tiene el propósito de trazar las directrices para el desarrollo y primera implementación de Proyecta ITAM. El enfoque específico es mostrar las metodologías, vistas, funcionalidades y requerimientos, costos y riesgos, necesario para realizar la aplicación
 
 ## 4 TEST ITEMS (FUNCTIONS) 
+
 Las funcionaliades que se probarán serán:
 * Ingresar a la página
 * Registrarse 
@@ -23,9 +24,6 @@ Las funcionaliades que se probarán serán:
 * Publicar un comentario en un proyecto en específico
 * Votar por un proyecto en específico
 * Navegar por los comentarios existentes.
-
-These are things you intend to test within the scope of this test plan.  Essentially, something you will test, a list of what is to be tested. This can be developed from the software application inventories as well as other sources of documentation and information. 
-IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme Evolutif Limited Page 3 This can be controlled and defined by your local Configuration Management (CM) process if you have one.  This information includes version numbers, configuration requirements where needed, (especially if multiple versions of the product are supported).  It may also include key delivery schedule issues for critical elements. Remember, what you are testing is what you intend to deliver to the Client. This section can be oriented to the level of the test plan.  For higher levels it may be by application or functional area, for lower levels it may be by program, unit, module or build.
 
 ## 5 SOFTWARE RISK ISSUES 
 Identify what software is to be tested and what the critical areas are, such as: A. Delivery of a third party product. B. New version of interfacing software C. Ability to use and understand a new package/tool, etc. D. Extremely complex functions  E. Modifications to components with a past history of failure F. Poorly documented modules or change requests There are some inherent software risks such as complexity; these need to be identified.   A. Safety B. Multiple interfaces C. Impacts on Client D. Government regulations and rules Another key area of risk is a misunderstanding of the original requirements. This can occur at the management, user and developer levels. Be aware of vague or unclear requirements and requirements that cannot be tested. The past history of defects (bugs) discovered during Unit testing will help identify potential areas within the software that are risky.  If the unit testing discovered a large number of defects or a tendency towards defects in a particular area of the software, this is an indication of potential future problems.  It is the nature of defects to cluster and clump together.  If it was defect ridden earlier, it will most likely continue to be defect prone. One good approach to define where the risks are is to have several brainstorming sessions. § Start with ideas, such as, what worries me about this project/application.
