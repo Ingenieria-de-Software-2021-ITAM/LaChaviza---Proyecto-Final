@@ -1,3 +1,5 @@
+# REQUERIMIENTOS 
+
 ## 1. Introducción
 
 ### 1.1 Propósito
@@ -22,12 +24,12 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 
 ## 2. Descripción general
 
-### 2.1 Perspectiva del producto
+### 2.1 Perspectiva del proyecto
 Se espera que esta aplicación sea una forma en la que la tecnología puede acercar y ayudar a lxs alumnxs del ITAM a mejorar su escuela por medio de proyectos que ellxs mismos proponen. En la parte técnica, se espera que tenga la suficiente robustez para aguantar un máximo de 8000 usuarixs registradxs y que pueda tener un rendimiento adecuado para actualizar los votos y los proyectos continuamente. 
 
 Se espera que por medio de esta herramienta, lxs alumnxs del ITAM puedan acercarse un poco a su comunidad y buscar formas para mejorar cada vez más la experiencia estudiantil que se tiene.
 
-### 2.2 Funcionalidad del producto
+### 2.2 Funcionalidad del proyecto
 La principal funcionalidad del proyecto es ser una plataforma para la Comunidad ITAM en la cual lxs alumnxs puedan proponer y votar por proyectos para que se lleven a cabo en el ITAM. Así como darle seguimiento a los que ya habían sido seleccionados anteriormente.
 
 Será una aplicación web que contará con un login, un catálogo de proyectos por 
@@ -45,7 +47,9 @@ Se tomaron en cuenta las siguientes clases:
 Al ser una aplicación web, esta correrá en todos los buscadores de internet. 
 
 ### 2.5 Limitaciones de diseño e implementación
-Por 
+- Acceso limitado a la base de datos del ITAM. 
+- Acceso solo a alumnxs de la Comunidad ITAM, si algun externo se une, tiene que comprobar que está acompañado de algúnx alumnx.
+
 
 ### 2.6 Documentación para usuarix
 - [READ ME](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/README.md)
