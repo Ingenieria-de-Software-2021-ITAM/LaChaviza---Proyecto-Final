@@ -79,6 +79,8 @@ If this is a multi-phase process or if the application is to be released in incr
 ## 13 ENVIRONMENTAL NEEDS 
 Are there any special requirements for this test plan, such as: § Special hardware such as simulators, static generators etc. § How will test data be provided.  Are there special collection requirements or specific ranges of data that must be provided? § How much testing will be done on each component of a multi-part feature? § Special power requirements. § Specific versions of other supporting software. § Restricted use of the system during testing. 
 
+Como tal no detectamos requerimientos ambientales que no sean normales en el desarrollo de una aplicación sencilla de software. Es decir, no necesitamos software o hardware especial. No detectamos requerimientos de energía inusuales ni software de soporte antiguo. Lo único que necesitamos son servidores para el despliegue y donde alojemos el proyecto y computadoras normales para trabajo que usarán los programadores.
+
 ## 14 STAFFING AND TRAINING NEEDS 
 Training on the application/system. Training for any test tools to be used. Section 4 and Section 15 also affect this section.  What is to be tested and who is responsible for the testing and training. 
 
