@@ -1,8 +1,8 @@
 ## DOCUMENTACIÓN PARA REPLICAR
 
 La aplicación desarrollada funciona de la isguiente manera:
-1. Se puede descargar para ordenadores y dispositivos móviles a través de la página oficial del ITAM, Apple Store y Google Play. 
-2. Una vez descargada, la aplicación dirige al usuario a la página de LogIn. Aquí se debe proporcionar el nombre de usuario y contraseña; una vez hecho esto se da click en el botón *Iniciar*. 
+1. En el link al prototipo se encuentra [aquí](https://app.moqups.com/MGHKpHQoFzL0tnLWQSHoPrmzQogyRgHn/view/page/a8310d123). Al darle click, se redirigirá al usuario al prototipo de la aplicación
+2. Se dirige al usuario a la página de LogIn. Aquí se debe proporcionar el nombre de usuario y contraseña; una vez hecho esto se da click en el botón *Iniciar*. 
 3. Si la persona no está registrada aún, puede dar click en la palabra *Registrarse*. La aplicación la redirigirá a una pantalla en donde deberá introducir su nombre de usuario, **correo electrónico del ITAM**, contraseña y verificación de contraseña. Una vez hehco esto, se da click en el botón *Registrar*.
 4. La aplicación mandará al usuario a la página de *Proyectos*. Aquí se pueden ver los proyectos más relevantes, aunque también es posible ordenarlos por Nombre y Fecha. En esta página también podemos encontrar un buscador en el que se podrá encontrar un proyecto en base a Autor(es), Fecha, Título o Tema. 
 5. Cuando se le da click a un proyecto, la aplicación manda al usuario a la página específica para dicho proyecto. Aquí se tienen varias funcionalidades:
