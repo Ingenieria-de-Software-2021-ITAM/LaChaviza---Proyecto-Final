@@ -57,7 +57,6 @@ Al ser una aplicación web, esta correrá en todos los buscadores de internet.
 ### 2.7 Supuestos 
 
 - Lxs alumnxs pueden votar.
-- Tanto personas externas como alumnxs pueden proponer proyectos.
 - Se esperará un máximo de 8000 votos de alumnxs, si se cuenta a toda la población estudiantil.
 - La plataforma necesitará hacer cambios en un tiempo definido. Cada año obligatoriamente para que se propongan más proyectos y se irá actualizando cada 3 meses para ver el desarrollo de los proyectos activos.
 - Todxs lxs usuarixs cuentan con conexión a internet y una computadora para poder acceder a la plataforma.
