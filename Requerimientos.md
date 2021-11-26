@@ -30,7 +30,12 @@ Será una aplicación web que contará con un login, un catálogo de proyectos p
 
 ### 2.3 Clases de Usuario y características
 Se tomaron en cuenta las siguientes clase:
-- Alumnx 
+- Alumnx: Clase General de alumnxs en la cual se encuentran los datos básicos del alumnx del ITAM como nombre, CU, carrera, mail.
+- Alumnx votante: Alumnx unicamente votante. Hereda la clase Alumnx y cuenta con un atributo de que le permite votar por cualquier proyecto.
+- Alumnx Owne: Alumnx proponiendo proyecto. Hereda la clase Alumnx pero no puede votar por su proyecto. Así mismo, este alumnxs cuenta con un atributo que le muestra cuántos proyectos activos tiene. 
+- Proyecto: Clase del proyecto con atributos: Nombre de proyecto, Votos, EstaActivo, FechaDePropuesta, FechaDeImplementación, Aprobación, Descripción.
+- Owner Externo: Solo es posible si la persona externa pertenece a un equipo de Ownners itamitas. Atributos: Nombre, email, teléfono, proyecto. 
+ 
 
 ### 2.4 Ambiente de operaciones
 Al ser una aplicación web, esta correrá en todos los buscadores de internet. 
@@ -148,6 +153,7 @@ Toda funcionalidad dentro del sistema debe contestar al usuarix en menos de tres
 - Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos.
 - Todas las comunicaciones externas entre servidores de datos, aplicación y cliente del sistema deben estar encriptadas utilizando el algoritmo RSA.
 - Si se identifican ataques de seguridad o brecha del sistema, el mismo no continuará operando hasta ser desbloqueado por un administrador de seguridad.
+- Se llevará registros de lxs usuarixs. Dichos registros solamente podrán ser accedidos en caso de alguna anomalía en la plataforma.
 
 ### 5.4 Atributos de Calidad de Software
 
