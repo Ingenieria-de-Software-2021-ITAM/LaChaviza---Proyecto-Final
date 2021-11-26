@@ -1,7 +1,21 @@
 
 # TEST PLAN
 ## 1 TEST PLAN IDENTIFIER 
-Some type of unique company generated number to identify this test plan, its level and the level of software that it is related to.  Preferably the test plan level will be the same as the related software level.  The number may also identify whether the test plan is a Master plan, a Level plan, an integration plan or whichever plan level it represents. This is to assist in coordinating software and testware versions within configuration management. Keep in mind that test plans are like other software documentation, they are dynamic in nature and must be kept up to date.  Therefore, they will have revision numbers. You may want to include author and contact information including the revision history information as part of either the identifier section of as part of the introduction. 
+
+El test plan identifier de este documento es plan_de_calidad_PROYECTA_ITAM_v1
+
+Fecha: 25/11/21 
+
+Autorxs:
+Equipo Chaviza
+
+Santiago Delgado
+
+Ana Cristina Sánchez
+
+Lucia Lizardi
+
+Juan I. Hernández
 
 ## 2 REFERENCIAS
 
