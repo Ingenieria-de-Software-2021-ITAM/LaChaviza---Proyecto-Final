@@ -23,24 +23,26 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 ## 2. Descripción general
 
 ### 2.1 Perspectiva del producto
+
 ### 2.2 Funcionalidad del producto
 La principal funcionalidad del proyecto es ser una plataforma para la Comunidad ITAM en la cual lxs alumnxs puedan proponer y votar por proyectos para que se lleven a cabo en el ITAM. Así como darle seguimiento a los que ya habían sido seleccionados anteriormente.
 
 Será una aplicación web que contará con un login, un catálogo de proyectos por 
 
 ### 2.3 Clases de Usuario y características
-Se tomaron en cuenta las siguientes clase:
+Se tomaron en cuenta las siguientes clases:
 - Alumnx: Clase General de alumnxs en la cual se encuentran los datos básicos del alumnx del ITAM como nombre, CU, carrera, mail.
 - Alumnx votante: Alumnx unicamente votante. Hereda la clase Alumnx y cuenta con un atributo de que le permite votar por cualquier proyecto.
-- Alumnx Owne: Alumnx proponiendo proyecto. Hereda la clase Alumnx pero no puede votar por su proyecto. Así mismo, este alumnxs cuenta con un atributo que le muestra cuántos proyectos activos tiene. 
-- Proyecto: Clase del proyecto con atributos: Nombre de proyecto, Votos, EstaActivo, FechaDePropuesta, FechaDeImplementación, Aprobación, Descripción.
-- Owner Externo: Solo es posible si la persona externa pertenece a un equipo de Ownners itamitas. Atributos: Nombre, email, teléfono, proyecto. 
- 
+- Alumnx Owner: Alumnx proponiendo proyecto. Hereda la clase Alumnx pero no puede votar por su proyecto. Así mismo, este alumnxs cuenta con un atributo que le muestra cuántos proyectos activos tiene. 
+- Proyecto: Clase del proyecto con atributos: Nombre de proyecto, Tipo de proyecto, Votos, Esta Activo, Fecha De Propuesta, Fecha De Implementación, Aprobación, Descripción y Owners (lxs dueños del proyecto).
+- Owner Externo: Solo es posible si la persona externa pertenece a un equipo de Ownners itamitas. Atributos: Nombre, email, teléfono, proyecto.
+
 
 ### 2.4 Ambiente de operaciones
 Al ser una aplicación web, esta correrá en todos los buscadores de internet. 
 
 ### 2.5 Limitaciones de diseño e implementación
+Por 
 
 ### 2.6 Documentación para usuarix
 
