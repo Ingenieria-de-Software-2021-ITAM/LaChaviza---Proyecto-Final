@@ -11,11 +11,11 @@
 
 
 # Consideraciones:
-- Personas externas al ITAM pueden entrar a proponer proyectos
-- Se espera que la mayoría de lxs alumnxs voten por proyectos >5000 usuarios: Despliegue y desempeño
-- Se busca tener un seguimiento continuo del proyecto: Desempeño
-- Hay un número tope de proyectos por semestre (no pueden haber más de 20 proyectos en curso) : No escalabilidad
-- Los lineamientos pueden cambiar: Agilidad
+- Personas externas al ITAM pueden entrar a proponer proyectos **Agilidad**
+- Se espera que la mayoría de lxs alumnxs voten por proyectos. Se busca un buen **despliegue y desempeño**
+- Se busca tener un seguimiento continuo del proyecto: **Desempeño**
+- Hay un número tope de proyectos por semestre (no pueden haber más de 20 proyectos en curso), pero a lo largo del tiempo tiene que ir aumentando la capacidad : **Escalabilidad a largo plazo.**
+- Los lineamientos pueden cambiar: **Agilidad**
 
 Dado que la aplicación no necesariamente tendrá cambios drásticos seguidos porque en las primeras semanas del semestre se pondrán a votación los proyectos para ese año, y al cerrarse la votación solo se podrá ver el desarrollo y los proyectos pensados para el próximo año (que tendrán que irse actualizando cada dos meses), se pensó que no es tan necesaria una escalabilidad de la página en general, pero por proyecto se le podrían agregar muchas cosas a lo largo que escala el proyecto. Sin embargo, eso sería independiente de la aplicación como tal. También lxs alumnxs no van a estar en la app 24/7, de hecho se espera que las veces que se visite, sea cuando sean las elecciones y de vez en cuando que quieran ver el desarrollo de proyectos, pero no es una app que sea de prioridad alta para lxs alumnxs durante el semestre, por lo que se utilizaría cuando la necesiten.
 
