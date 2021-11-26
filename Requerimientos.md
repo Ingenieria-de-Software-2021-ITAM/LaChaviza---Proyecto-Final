@@ -40,7 +40,7 @@ Se tomaron en cuenta las siguientes clases:
 - Alumnx votante: Alumnx unicamente votante. Hereda la clase Alumnx y cuenta con un atributo de que le permite votar por cualquier proyecto.
 - Alumnx Owner: Alumnx proponiendo proyecto. Hereda la clase Alumnx pero no puede votar por su proyecto. Así mismo, este alumnxs cuenta con un atributo que le muestra cuántos proyectos activos tiene. 
 - Proyecto: Clase del proyecto con atributos: Nombre de proyecto, Tipo de proyecto, Votos, Esta Activo, Fecha De Propuesta, Fecha De Implementación, Aprobación, Descripción y Owners (lxs dueños del proyecto).
-- Owner Externo: Solo es posible si la persona externa pertenece a un equipo de Ownners itamitas. Atributos: Nombre, email, teléfono, proyecto.
+- Owner Externo: Solo es posible si la persona externa pertenece a un equipo de Ownners itamitas. Atributos: Nombre, email, teléfono, proyecto, correo itam. (Al ser parte de este proyecto, esta persona tiene que ser aceptar tener su propia clave única y formar parte de la comunidad ITAM).
 
 
 ### 2.4 Ambiente de operaciones
@@ -48,7 +48,7 @@ Al ser una aplicación web, esta correrá en todos los buscadores de internet.
 
 ### 2.5 Limitaciones de diseño e implementación
 - Acceso limitado a la base de datos del ITAM. 
-- Acceso solo a alumnxs de la Comunidad ITAM, si algun externo se une, tiene que comprobar que está acompañado de algúnx alumnx.
+- Acceso solo a alumnxs de la Comunidad ITAM, si algun externo se une, tendrá que ser registradx como miembro de la comunidad ITAM para poder llevar registros. Entonces tenemos que ver la parte de cómo hacer esto.
 
 
 ### 2.6 Documentación para usuarix
