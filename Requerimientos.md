@@ -24,11 +24,28 @@ El sistema se basa principalmente en dejar a lxs alumnxs buscar proyectos de su 
 
 ### 2.1 Perspectiva del producto
 ### 2.2 Funcionalidad del producto
+La principal funcionalidad del proyecto es ser una plataforma para la Comunidad ITAM en la cual lxs alumnxs puedan proponer y votar por proyectos para que se lleven a cabo en el ITAM. Así como darle seguimiento a los que ya habían sido seleccionados anteriormente.
+
+Será una aplicación web que contará con un login, un catálogo de proyectos por 
+
 ### 2.3 Clases de Usuario y características
+Se tomaron en cuenta las siguientes clase:
+- Alumnx 
+
 ### 2.4 Ambiente de operaciones
+Al ser una aplicación web, esta correrá en todos los buscadores de internet. 
+
 ### 2.5 Limitaciones de diseño e implementación
+
 ### 2.6 Documentación para usuarix
+
 ### 2.7 Supuestos 
+
+- Lxs alumnxs pueden votar.
+- Tanto personas externas como alumnxs pueden proponer proyectos.
+- Se esperará un máximo de 8000 votos de alumnxs, si se cuenta a toda la población estudiantil.
+- La plataforma necesitará hacer cambios en un tiempo definido. Cada año obligatoriamente para que se propongan más proyectos y se irá actualizando cada 3 meses para ver el desarrollo de los proyectos activos.
+- Todxs lxs usuarixs cuentan con conexión a internet y una computadora para poder acceder a la plataforma.
 
 ## 3. Requerimientos de Interfaz Externos
 
