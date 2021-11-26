@@ -50,7 +50,7 @@ La votación es el objetivo principal de la página, por lo que no puede haber e
 De igual manera, el ingresar a la aplicación es importante para que todo el quien lo desee pueda votar. 
 
 ## 7 FEATURES NOT TO BE TESTED 
-Las funcionalidades que se probarán desde el punto de vista del usuario son las siguientes:
+Las funcionalidades que no se probarán desde el punto de vista del usuario son las siguientes:
 * Visualización de comentarios
     *   (Acceso a la base de datos)
 * Comentar
