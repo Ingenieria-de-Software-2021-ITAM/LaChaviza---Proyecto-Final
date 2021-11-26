@@ -26,7 +26,14 @@ Las funcionaliades que se probarán serán:
 * Navegar por los comentarios existentes.
 
 ## 5 SOFTWARE RISK ISSUES 
-Identify what software is to be tested and what the critical areas are, such as: A. Delivery of a third party product. B. New version of interfacing software C. Ability to use and understand a new package/tool, etc. D. Extremely complex functions  E. Modifications to components with a past history of failure F. Poorly documented modules or change requests There are some inherent software risks such as complexity; these need to be identified.   A. Safety B. Multiple interfaces C. Impacts on Client D. Government regulations and rules Another key area of risk is a misunderstanding of the original requirements. This can occur at the management, user and developer levels. Be aware of vague or unclear requirements and requirements that cannot be tested. The past history of defects (bugs) discovered during Unit testing will help identify potential areas within the software that are risky.  If the unit testing discovered a large number of defects or a tendency towards defects in a particular area of the software, this is an indication of potential future problems.  It is the nature of defects to cluster and clump together.  If it was defect ridden earlier, it will most likely continue to be defect prone. One good approach to define where the risks are is to have several brainstorming sessions. § Start with ideas, such as, what worries me about this project/application.
+
+Los riesgos relacionados al software que pudimos detectar como posibles son:
+
+Errores en los servidores donde este desplegado el servicio
+Errores en servicios y bibliotecas auxiliares
+Errores y vunerabilidades no detectadas, o posteriores a haber terminado el proyecto
+Errores humanos al momento de dar mantenimiento
+Errores relacionados con las bases de datos que se utilicen o una creación inicial errónea
 
 ## 6 FEATURES TO BE TESTED 
 Las funcionalidades que se probarán desde el punto de vista del usuario son las siguientes:
