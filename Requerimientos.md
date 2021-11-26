@@ -45,7 +45,8 @@ Al ser una aplicación web, esta correrá en todos los buscadores de internet.
 Por 
 
 ### 2.6 Documentación para usuarix
-
+[READ ME]
+[]
 ### 2.7 Supuestos 
 
 - Lxs alumnxs pueden votar.
