@@ -1,4 +1,4 @@
-# LaChaviza-Proyecto-Final
+# PROYECTA ITAM
 
 ## Software Requirements 
 ## Plan de Calidad
