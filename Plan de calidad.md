@@ -30,10 +30,15 @@ Las funcionaliades que se probarán serán:
 Los riesgos relacionados al software que pudimos detectar como posibles son:
 
 Errores en los servidores donde este desplegado el servicio
+
 Errores en servicios y bibliotecas auxiliares
+
 Errores y vunerabilidades no detectadas, o posteriores a haber terminado el proyecto
+
 Errores humanos al momento de dar mantenimiento
+
 Errores relacionados con las bases de datos que se utilicen o una creación inicial errónea
+
 
 ## 6 FEATURES TO BE TESTED 
 Las funcionalidades que se probarán desde el punto de vista del usuario son las siguientes:
