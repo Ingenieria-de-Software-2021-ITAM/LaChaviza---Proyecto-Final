@@ -76,8 +76,7 @@ What is to be delivered as part of this plan? § Test plan document. § Test cas
 ## 12 REMAINING TEST TASKS
 If this is a multi-phase process or if the application is to be released in increments there may be parts of the application that this plan does not address.  These areas need to be identified to avoid any confusion should defects be reported back on those future functions.  This will also allow the users and testers to avoid incomplete functions and prevent waste of resources chasing non-defects. If the project is being developed as a multi-party process, this plan may only cover a portion of the total functions/features. This status needs to be identified so that those other areas have plans developed for them and to avoid wasting resources tracking defects that do not relate to this plan. When a third party is developing the software, this section may contain descriptions of those test tasks belonging to both the internal groups and the external groups. 
 
-## 13 ENVIRONMENTAL NEEDS 
-Are there any special requirements for this test plan, such as: § Special hardware such as simulators, static generators etc. § How will test data be provided.  Are there special collection requirements or specific ranges of data that must be provided? § How much testing will be done on each component of a multi-part feature? § Special power requirements. § Specific versions of other supporting software. § Restricted use of the system during testing. 
+## 13 ENVIRONMENTAL NEEDS  
 
 Como tal no detectamos requerimientos ambientales que no sean normales en el desarrollo de una aplicación sencilla de software. Es decir, no necesitamos software o hardware especial. No detectamos requerimientos de energía inusuales ni software de soporte antiguo. Lo único que necesitamos son servidores para el despliegue y donde alojemos el proyecto y computadoras normales para trabajo que usarán los programadores.
 
