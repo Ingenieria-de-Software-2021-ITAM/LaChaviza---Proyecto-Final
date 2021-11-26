@@ -45,8 +45,8 @@ Al ser una aplicación web, esta correrá en todos los buscadores de internet.
 Por 
 
 ### 2.6 Documentación para usuarix
-[READ ME]
-[]
+- [READ ME](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/README.md)
+- [MANUAL DE USUARIO CON CÓDIGO](https://github.com/Ingenieria-de-Software-2021-ITAM/LaChaviza-ProyectoFinal/blob/main/C%C3%B3digo.md)
 ### 2.7 Supuestos 
 
 - Lxs alumnxs pueden votar.
