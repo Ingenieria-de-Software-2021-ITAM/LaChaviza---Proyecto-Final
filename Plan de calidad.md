@@ -96,7 +96,11 @@ IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme
 ## 18 APPROVALS
 
 Solo los integrantes originales del equipo tienen autorización para modificar el proyecto, si en un momento posterior existen más integrantes tendrán que consultarlo con los integrantes originales. Estos integrantes son:
+
 Santiago Delgado
+
 Ana Cristina Sánchez
+
 Lucia Lizardi
+
 Juan I. Hernández
