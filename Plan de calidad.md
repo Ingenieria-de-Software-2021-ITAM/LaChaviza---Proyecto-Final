@@ -81,7 +81,8 @@ If this is a multi-phase process or if the application is to be released in incr
 Como tal no detectamos requerimientos ambientales que no sean normales en el desarrollo de una aplicación sencilla de software. Es decir, no necesitamos software o hardware especial. No detectamos requerimientos de energía inusuales ni software de soporte antiguo. Lo único que necesitamos son servidores para el despliegue y donde alojemos el proyecto y computadoras normales para trabajo que usarán los programadores.
 
 ## 14 STAFFING AND TRAINING NEEDS 
-Training on the application/system. Training for any test tools to be used. Section 4 and Section 15 also affect this section.  What is to be tested and who is responsible for the testing and training. 
+
+Se necesitará que todos los miembros tengan un conocimiento suficiente de programación de aplicaciones web. Se necesitará un especialista entrenado en pruebas para la aplicación, las pruebas como tal, se definiran antes de iniciar el proyecto entre todo el equipo y con conocimiento profundo y previo de los requerimientos del empleador. Es importante que exista un especialista en diseño de aplicaciones y otro en experiencia de usuario, pueden ser la misma persona. Debe existir un lead developer experimentado que guié el proyecto.
 
 ## 15 RESPONSIBILITIES 
 Who is in charge? This issue includes all areas of the plan.  Here are some examples: § Setting risks. § Selecting features to be tested and not tested. § Setting overall strategy for this level of plan. § Ensuring all required elements are in place for testing. § Providing for resolution of scheduling conflicts, especially, if testing is done on the production system. § Who provides the required training? § Who makes the critical go/no go decisions for items not covered in the test plans?
